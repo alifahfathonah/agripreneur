@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tarania</title>
+    <!-- web-fonts -->
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- off-canvas -->
+    <link href="css/mobile-menu.css" rel="stylesheet">
+    <!-- font-awesome -->
+     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/uploadgambar.css">
+
+<style type="text/css">
+    
+.head-search {
+    width : 400px;
+padding: 0px;
+    }
+
+
+.head-search .form-control {
+    height : 40px;
+    border-radius: 3px;
+    }
+
+.head-search .btn {
+    padding : 10px 20px;
+    }
+</style>
+
+</head>
+<body>
+<div id="main-wrapper">
+<!-- Page Preloader -->
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
+    </div>
+</div>
+
+<div class="uc-mobile-menu-pusher">
+<div class="content-wrapper white-bg">
+<nav class="navbar m-menu navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/Logo1.png" width="220" height="55"alt=""></a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            <ul class="nav-cta hidden-xs">
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right main-nav">
+            <li class="dropdown m-menu-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Kategori
+                    <span><i class="fa fa-angle-down"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="m-menu-content">
+                                <ul class="col-sm-3">
+                                    <li class="dropdown-header">Widget Haeder</li>
+                                    <li><a href="#">Awesome Features</a></li>
+                                    <li><a href="#">Clean Interface</a></li>
+                                    <li><a href="#">Available Possibilities</a></li>
+                                    <li><a href="#">Responsive Design</a></li>
+                                    <li><a href="#">Pixel Perfect Graphics</a></li>
+                                </ul>
+                                <ul class="col-sm-3">
+                                    <li class="dropdown-header">Widget Haeder</li>
+                                    <li><a href="#">Awesome Features</a></li>
+                                    <li><a href="#">Clean Interface</a></li>
+                                    <li><a href="#">Available Possibilities</a></li>
+                                    <li><a href="#">Responsive Design</a></li>
+                                    <li><a href="#">Pixel Perfect Graphics</a></li>
+                                </ul>
+                                <ul class="col-sm-3">
+                                    <li class="dropdown-header">Widget Haeder</li>
+                                    <li><a href="#">Awesome Features</a></li>
+                                    <li><a href="#">Clean Interface</a></li>
+                                    <li><a href="#">Available Possibilities</a></li>
+                                    <li><a href="#">Responsive Design</a></li>
+                                    <li><a href="#">Pixel Perfect Graphics</a></li>
+                                </ul>
+                                <ul class="col-sm-3">
+                                    <li class="dropdown-header">Widget Haeder</li>
+                                    <li><a href="#">Awesome Features</a></li>
+                                    <li><a href="#">Clean Interface</a></li>
+                                    <li><a href="#">Available Possibilities</a></li>
+                                    <li><a href="#">Responsive Design</a></li>
+                                    <li><a href="#">Pixel Perfect Graphics</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                            <div class="head-search">
+                                <form role="form">
+                                    <!-- Input Group -->
+                                    <div class="input-group" >
+                                        <input type="text" class="form-control" placeholder="Cari produk, komoditas, atau UKM">
+                                            <span class="input-group-btn">
+                                              <button type="submit" class="btn btn-hijau">
+
+                                                <i class="fa fa-search" style="font-size:15px;color: white;"></i>
+                                              </button>
+                                            </span>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Layanan Kami
+                    <span><i class="fa fa-angle-down"></i></span>
+                    </a>
+                    <ul class="dropdown-menu layanan">
+
+                        <li><a href="">  <i class="  fas fa-dollar-sign"></i>Program dan Pendanaan</a></li>
+                        <li><a href=""> <i class="  fas fa-file-alt"></i>Artikel dan Berita</a></li>
+                        <li><a href=""> <i class='fas fa-chalkboard-teacher'></i>Jasa konsultasi</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">UKM
+                    <span><i class="fa fa-angle-down"></i></span>
+                    </a>
+                    <ul class="dropdown-menu layanan">
+                      <div class="m-menu-content">
+                                <ul class="col-sm-12">
+                                  <div class="mt-nav radius">
+                                         <img class="radius" src="img/template_main.jpg"style="width: 40px; height: 40px;">
+                                        <div class="badge profile">
+                                            <a href="" style="color: #57b846;">Manskuy Store</a>
+                                           <a href="" style="color: #808080;">Edit UKM</a>
+                                           <!-- <label class="block" style="color: #808080;">Masyarakat</label> -->
+                                        </div>
+                                </div>
+                                </ul>
+                            
+                            </div>
+                        <li><a href="">Tambah Produk</a></li>
+                        <li><a href="">Daftar Produk</a></li>
+                        <li><a href="">Tambah Komoditas</a></li>
+                        <li><a href="">Daftar Komoditas</a></li>
+
+                    </ul>
+                </li>
+                
+             <!--   <li class=""><a href="">Daftar</a></li>
+                <li><a href="">Masuk</a></li> -->
+                  <li class="akun dropdown m-menu-pr" data-toggle="dropdown" class="dropdown-toggle"><a href=""><img src="img/template_main.jpg"style="width: 20px; height: 20px; border-radius: 3px;"></a>
+
+                     <ul class="dropdown-menu ">
+                        <li class="profilee">
+                            <a href="">
+                            <label style="  color: #57b846;">Abdul Rahman</label>
+                            </a>
+                        </li>
+                        <li><a href="">Pengaturan</a></li>
+                        <li><a href="">Keluar</a></li>
+                    </ul>
+
+                  </li>
+                
+                
+            </ul>
+
+        </div>
+        <!-- .navbar-collapse -->
+    </div>
+    <!-- .container -->
+</nav>
+<!-- .nav -->
+<section class="containers">
+<div class="mt-100">
+    <div class="row">
+        <div class="col-md-2">
+                <img class="radius" src="img/template_main.jpg"style="width: 170px; height: 170px;">
+        </div>
+        <div class="col-md-8">  
+            <div class="flex-column line">
+                  <a href="edit_ukm.php">
+                <span class="badge badge-pill badge-warning"> <i class="fas fa-cog"></i>Ubah</span>
+                </a>
+                <label style="font-size:25px; color:#57b846;">Mamanskuy Store</label>
+                <p>Perusahaan Garskin terbesar di bogor, presisi dengan segala jenis smartphone</p>
+            </div>  
+            <div class="flex-column line">
+                <div class="flex-row mr-b-0">
+                        <i class="fas fa-clock"></i>
+                        <p class="mr-p-3">1 menit yang lalu</p>
+                        <i class='fas fa-map-marker-alt'></i>
+                        <p>Jakarta</p>
+                </div>
+                <div class="flex-row">
+                        <i class="fas fa-home"></i>
+                        <p class="mr-p-3">Online</p>
+                        <i class='fas fa-door-open'></i>
+                        <p>November 2018</p>
+                </div>
+            </div>
+      
+        </div>
+    </div>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                <a class="nav-link tablinks active" onclick="openTab(event, 'produk')" href="#">Produk</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link tablinks" onclick="openTab(event, 'komoditas')" href="#">Komoditas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link tablinks" onclick="openTab(event, 'artikel')" href="#">Artikel</a>
+                </li>
+            </ul>
+
+        <div class="tabcontent" id="produk" style="display: block;">
+            
+            <div class="containerr">
+            <h5>Produk UKM</h5>
+            </div> 
+        </div>
+        <div class="tabcontent" id="komoditas">
+            
+            <div class="containerr">
+            <h5>Komoditas</h5>
+            </div> 
+        </div>
+        <div class="tabcontent" id="artikel">
+            
+            <div class="containerr">
+            <h5>Artikel</h5>
+            </div> 
+        </div>
+</div>
+    
+</section>
+
+<footer class="footer">
+
+    <!-- Footer Widget Section -->
+    <div class="footer-widget-section">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-4 footer-block">
+                    <div class="footer-widget widget_text">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <p>Continually matrix cross functional opportunities whereas ethical information. Compellingly streamline enabled human capital before resource-leveling internal or "organic".</p>
+
+                    </div>
+                </div><!-- /.col-sm-4 -->
+
+                <div class="col-sm-4 footer-block">
+                    <div class="footer-widget widget_text">
+                        <h3>We work for your profit</h3>
+                        <p>Distinctively expedite viral materials rather than out-of-the-box solutions. Credibly empower revolutionary ROI rather than unique products. Collaboratively maximize principle-centered ideas before highly efficient data. Phosfluorescently.</p>
+                    </div>
+                </div><!-- /.col-sm-4 -->
+
+                <div class="col-sm-4 footer-block last">
+                    <div class="footer-widget widget_text">
+                        <h3>Contact Us Today</h3>
+                        <address>
+                            Call Us 666 777 888 OR 111 222 333<br>
+                            Send an Email on <a href="mailto:#">contact@domain.com</a><br>
+                            Visit Us 123 Fake Street- Blla 12358<br>
+                            Fake Kingdom<br>
+                        </address>
+
+                        <ul class="list-inline social-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.col-sm-4 -->
+            </div>
+        </div>
+    </div><!-- /.Footer Widget Section -->
+
+    <div class="copyright-section">
+        <div class="container clearfix">
+                <span class="copytext">Copyright &copy; 2016 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">X-Corporation</a> Designed And Developed By: <strong style="color: #31aae2;">uiCookies.com</strong></span>
+
+            <ul class="list-inline pull-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div><!-- .container -->
+    </div><!-- .copyright-section -->
+</footer>
+<!-- .footer -->
+
+</div>
+<!-- .content-wrapper -->
+</div>
+<!-- .offcanvas-pusher -->
+
+<div class="uc-mobile-menu uc-mobile-menu-effect">
+    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
+            id="uc-mobile-menu-close-btn">&times;</button>
+    <div>
+        <div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- .uc-mobile-menu -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- Script -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/flexSlider/jquery.flexslider-min.js"></script>
+<script src="js/uploadgambar.js"></script>
+<script src="js/scripts.js"></script>
+<div/>
+		<a style="font-size:0; height:0; width:0; opacity:0; position:absolute" target="_blank" href="http://www.uicookies.com">HTML Templates by uiCookies</a>        
+	</div>
+    <script type="text/javascript">
+          function openTab(evt, name) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(name).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    </script>
+</body>
+</html>
