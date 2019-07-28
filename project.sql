@@ -268,8 +268,6 @@ CREATE TABLE IF NOT EXISTS `user` (
 INSERT INTO `user` (`username`, `password`, `nama_mas`, `jk_mas`, `alamat_mas`, `kota_mas`, `notelp_mas`, `email_mas`, `role`) VALUES
 ('123', '123', 'adas', 'L', 'Vila Dago Alam Asri 3', 'Tangerang Selatan', '0895332151170', '10ipa3.abdulrahman@gmail.com', 2),
 ('22', '22', '2222', 'L', 'Vila Dago Alam Asri 3', 'Tangerang Selatan', '0895332151170', 'pramudyadandy00@gmail.com', 2),
-('andri123', '123456', 'Andri Kons', 'L', 'Jalan Tatata', 'Jakarta', '0541235123', 'afsdgasdgas@gmail.com', 2),
-('bahlul123', 'anjing', '', '', '', '', '', '', 2),
 ('cyberneoo', '1234', 'Christopher', 'P', 'Jalan kebangkitan tidur nomor 3', 'Jakarta Tengah', '051238994123', 'cyberneoo@gmail.com', 2),
 ('desabojong12', '123', '', '', '', '', '', '', 2),
 ('eeeeeee', 'eeeeee', 'eeeeeeeeee', 'L', 'Vila Dago Alam Asri 3', 'Tangerang Selatan', '0895332151170', 'eeeeee', 1),
